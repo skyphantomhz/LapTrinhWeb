@@ -39,6 +39,7 @@ header h3 {
 	font-style: italic;
 }
 header img {
+	transition: 2s;
 	float: left;
 	padding: 0 30px;
 }
@@ -134,9 +135,11 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
+	transition: 3s;
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+
 }
 
 /* the styles for the aside */
@@ -170,3 +173,45 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+/* figcaption {
+	display: block;
+	font-weight: bold;
+	padding-top: .25em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid black; 
+}
+figure{
+	float:right;
+	margin-right: 1.5em;
+} */
+/* Table  */
+figcaption{
+	color: #800000;
+}
+figure{
+	margin-top: .5em;
+	margin-left: 0;
+}
+tfoot th, tfoot td {
+	text-align: right;
+	font-weight: bold;
+}
+thead, tfoot {
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+th, td {
+	padding: .2em .7em;
+	text-align: left;
+}
+tfoot th, tfoot td {
+	text-align: right;
+	font-weight: bold;
+}
+.border_bottom {
+	border-bottom: 2px solid #800000;
+}
+.right{
+	text-align: right;
+}
+
